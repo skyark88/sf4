@@ -121,7 +121,7 @@ end);
 wait(1);
 TPController:Teleport({pos=GlobalBoss.spawnPos,areaName=nil,regionName="Global Boss",leaveGamemode=true});
 wait(1);
-local repo = "https://gitee.com/fudu_ji/SFS_Script/raw/master/LinoriaLibUI/";
+local repo = "https://github.com/violin-suzutsuki/LinoriaLibUI/";
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))();
 local SaveManager = loadstring(game:HttpGet(repo .. "SaveManager.lua"))();
 SaveManager:SetFolder("SFSConfiguration");
